@@ -4,4 +4,8 @@ while (true) {
         music.magicWand.loop()
     }
     
+    if (input.lightLevel() >= 5) {
+        music.wawawawaa.play()
+    }
+    
 }
